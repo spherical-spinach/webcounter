@@ -1,0 +1,15 @@
+1731611876204	geckodriver	INFO	Listening on 127.0.0.1:43117
+1731611876218	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexWKDBn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731611876692	Marionette	INFO	Marionette enabled
+1731611876822	Marionette	INFO	Listening on port 38379
+Read port: 38379
+WebDriver BiDi listening on ws://127.0.0.1:35045
+1731611877041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35045/devtools/browser/8aabc207-343b-4041-96b8-550f04c53c86
+1731611883194	Marionette	INFO	Stopped listening on port 38379
+[Parent 45647, Main Thread] WARNING: Error releasing name org.mozilla.firefox.L3RtcC9ydXN0X21venByb2ZpbGV4V0tEQm4_: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.957" (uid=1000 pid=45647 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.freedesktop.DBus" member="ReleaseName" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus): 'glib warning', file /build/firefox-q5KYy4/firefox-132.0+build1/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:45647): GLib-GIO-WARNING **: 21:18:03.522: Error releasing name org.mozilla.firefox.L3RtcC9ydXN0X21venByb2ZpbGV4V0tEQm4_: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.957" (uid=1000 pid=45647 comm="/usr/lib/firefox/firefox --marionette --remote-deb" label="firefox (enforce)") interface="org.freedesktop.DBus" member="ReleaseName" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
